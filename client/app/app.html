@@ -1,0 +1,133 @@
+<!-- Place all UI elements intended to be present across all routes in this file -->
+<div class="app">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <div class="row">
+          <div class="col-md-4" style="line-height: 64px;">
+            <a href="#"> <img src="./app/assets/logo.png" id="logoChange" width="48" alt=""
+                class="img logo-change imgContainer">
+            </a>
+          </div>
+          <div class="col-md-8" style="padding-left: 3px;">
+            <a class="navbar-brand">TradeTools</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <h4 id="title-editor">Give your team autonomy while preserving the visual identity of yout company</h4>
+      <div class="hidden" id="title-toolbar-container">
+        <div id="title-toolbar">
+          <div class="ql-toolbar ql-snow">
+            <span class="ql-formats">
+              <select class="ql-size">
+                <option value="small"></option>
+                <option selected></option>
+                <option value="large"></option>
+                <option value="huge"></option>
+              </select>
+              <button type="button" class="ql-italic"></button>
+              <button type="button" class="ql-underline"></button>
+              <span class="ql-formats">
+                <button type="button" class="ql-indent" value="-1"></button>
+                <button type="button" class="ql-indent" value="+1"></button>
+                <select class="ql-align">
+                  <option selected="selected"></option>
+                  <option value="center"></option>
+                  <option value="right"></option>
+                  <option value="justify"></option>
+                </select>
+                <button type="button" class="ql-direction" value="rtl"></button>
+                <button type="button" class="ql-list" value="ordered"></button>
+                <button type="button" class="ql-list" value="bullet"></button>
+              </span>
+              <span class="ql-formats">
+                <button type="button" class="ql-image"></button>
+                <button type="button" class="ql-code-block"></button>
+                <button type="button" class="ql-script" value="sub"></button>
+                <button type="button" class="ql-script" value="super"></button>
+                <button type="button" class="ql-clean"></button>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <a>
+      <img src="./app/assets/laptop.jpg" width="700" class="img-principal img imgContainer" id="imageChange" o alt="">
+    </a>
+  </div>
+  <div class="row footer-div">
+    <div class="h6" id="footer-editor"> WWW.TRADETOOLS.COM</div>
+    <div class="hidden" id="footer-toolbar-container">
+      <div id="footer-toolbar">
+        <div class="ql-toolbar ql-snow">
+          <span class="ql-formats">
+            <select class="ql-size">
+              <option value="small"></option>
+              <option selected></option>
+              <option value="large"></option>
+              <option value="huge"></option>
+            </select>
+            <button type="button" class="ql-italic"></button>
+            <button type="button" class="ql-underline"></button>
+            <span class="ql-formats">
+              <button type="button" class="ql-indent" value="-1"></button>
+              <button type="button" class="ql-indent" value="+1"></button>
+              <select class="ql-align">
+                <option selected="selected"></option>
+                <option value="center"></option>
+                <option value="right"></option>
+                <option value="justify"></option>
+              </select>
+              <button type="button" class="ql-direction" value="rtl"></button>
+              <button type="button" class="ql-list" value="ordered"></button>
+              <button type="button" class="ql-list" value="bullet"></button>
+            </span>
+            <span class="ql-formats">
+              <button type="button" class="ql-image"></button>
+              <button type="button" class="ql-code-block"></button>
+              <button type="button" class="ql-script" value="sub"></button>
+              <button type="button" class="ql-script" value="super"></button>
+              <button type="button" class="ql-clean"></button>
+            </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header m-3">
+            <h5 class="modal-title" id="exampleModalLabel">TradeTools</h5>
+          </div>
+          <div class="modal-body text-center">
+            <div class="gallery" id="gallery">
+              <a href="#"> <img class="img-fluid img-grid" width="200" height="133"
+                  src="https://www.w3schools.com/w3images/wedding.jpg" alt="Card image cap" id="img1"></a>
+              <a href="#"> <img class="img-fluid img-grid" width="200"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap"
+                  id="img2"></a>
+              <a href="#"> <img class="img-fluid img-grid" width="200"
+                  src="https://www.w3schools.com/w3images/nature.jpg" alt="Card image cap" id="img3"></a>
+              <a href="#"> <img class="img-fluid img-grid" width="200"
+                  src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap"
+                  id="img4"></a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
